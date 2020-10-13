@@ -120,6 +120,9 @@
 
                         if (this.arith == 0) {
                             var tmparith = Math.floor(Math.random() * 3)
+                        }else{
+                        //没有这段设置arith 值不生效
+                        var tmparith = this.arith
                         }
 
                         switch (tmparith) {
